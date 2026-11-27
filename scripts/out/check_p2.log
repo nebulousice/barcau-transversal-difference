@@ -1,0 +1,4 @@
+check_L1.py p2   (python 3.12.10, CPython, Windows 11; standard library only; check_L1.py sha256 6be5f43954a27c0a...)
+  p=2: 64 normalised f; histogram (|T-T|, number of line-direction subspaces): {(9, 2): 48, (13, 0): 16}
+  p=2: min |T-T| = 9 (source Cor. 5.2, r = 2: 9); stats {'min_cosets': 2, 'min_cross_C': 3, 'min_YY': 3, 'min_per_coset': 3, 'min_column': 6, 'column_checks': 96, 'line_f': 48, 'line_min_total': 9, 'zero_branch': 16, 'zero_branch_min_total': 13}
+RESULT: ALL CHECKS PASS

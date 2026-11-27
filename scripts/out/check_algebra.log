@@ -1,0 +1,7 @@
+check_L1.py algebra   (python 3.12.10, CPython, Windows 11; standard library only; check_L1.py sha256 6be5f43954a27c0a...)
+  p=2: N1, N2, N3 on all 16 elements of G; Lemma D (i)-(iv) for all 12 g outside H; 6 cyclic subgroups of order p^2: Lemma D (v), Lemma G (last statement), steps 3a, 3b, 3d; Lemma E: box 9 = (2p-1)^2, |A_w(0)| = 2^n(w) for all 4 w
+  p=3: N1, N2, N3 on all 81 elements of G; Lemma D (i)-(iv) for all 72 g outside H; 12 cyclic subgroups of order p^2: Lemma D (v), Lemma G (last statement), steps 3a, 3b, 3d; Lemma E: box 25 = (2p-1)^2, |A_w(0)| = 2^n(w) for all 9 w
+  p=5: N1, N2, N3 on all 625 elements of G; Lemma D (i)-(iv) for all 600 g outside H; 30 cyclic subgroups of order p^2: Lemma D (v), Lemma G (last statement), steps 3a, 3b, 3d; Lemma E: box 81 = (2p-1)^2, |A_w(0)| = 2^n(w) for all 25 w
+  p=7: N1, N2, N3 on all 2401 elements of G; Lemma D (i)-(iv) for all 2352 g outside H; 56 cyclic subgroups of order p^2: Lemma D (v), Lemma G (last statement), steps 3a, 3b, 3d; Lemma E: box 169 = (2p-1)^2, |A_w(0)| = 2^n(w) for all 49 w
+  p=11: N1, N2, N3 on all 14641 elements of G; Lemma D (i)-(iv) for all 14520 g outside H; 132 cyclic subgroups of order p^2: Lemma D (v), Lemma G (last statement), steps 3a, 3b, 3d; Lemma E: box 441 = (2p-1)^2, |A_w(0)| = 2^n(w) for all 121 w
+RESULT: ALL CHECKS PASS

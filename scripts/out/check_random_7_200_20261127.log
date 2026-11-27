@@ -1,0 +1,4 @@
+check_L1.py random 7 200 20261127   (python 3.12.10, CPython, Windows 11; standard library only; check_L1.py sha256 6be5f43954a27c0a...)
+  p=7 seed=20261127: 200 random f in the hypothesis class: min |T-T|=411 (box 169); stats {'min_cosets': 7, 'min_cross_C': 13, 'min_YY': 17, 'min_per_coset': 13, 'min_column': 51, 'column_checks': 1200, 'line_f': 200, 'line_min_total': 411}
+  p=7 seed=20261127: 200 uniformly random f (Lemmas A, B, C, G and the 0-branch count): stats {'min_cosets': 24, 'zero_branch': 200, 'zero_branch_min_total': 1419}; elapsed 25.7s
+RESULT: ALL CHECKS PASS

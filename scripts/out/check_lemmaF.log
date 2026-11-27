@@ -1,0 +1,12 @@
+check_L1.py lemmaF   (python 3.12.10, CPython, Windows 11; standard library only; check_L1.py sha256 6be5f43954a27c0a...)
+  Z=Z/1 K=<0> index q=1 hypothesis(order>q outside K)=True pairs=1 min|A-B|=1 bound 2q-1=1 violations=0
+  Z=Z/4 K=<2> index q=2 hypothesis(order>q outside K)=True pairs=16 min|A-B|=3 bound 2q-1=3 violations=0
+  Z=Z/9 K=<3> index q=3 hypothesis(order>q outside K)=True pairs=729 min|A-B|=5 bound 2q-1=5 violations=0
+  Z=Z/8 K=<2> index q=2 hypothesis(order>q outside K)=True pairs=256 min|A-B|=3 bound 2q-1=3 violations=0
+  Z=Z/25 K=<5> index q=5 hypothesis(order>q outside K)=True pairs=390625 (A,B normalised: translation does not change |A-B|) min|A-B|=9 bound 2q-1=9 violations=0
+  Z=Z/27 K=<3> index q=3 hypothesis(order>q outside K)=True pairs=531441 min|A-B|=5 bound 2q-1=5 violations=0
+  Z=Z/16 K=<2> index q=2 hypothesis(order>q outside K)=True pairs=4096 min|A-B|=3 bound 2q-1=3 violations=0
+  Z=Z/6 K=<3> index q=3 hypothesis(order>q outside K)=False pairs=64 min|A-B|=3 bound 2q-1=5 violations=0
+  Z=Z/8 K=<4> index q=4 hypothesis(order>q outside K)=False pairs=256 min|A-B|=7 bound 2q-1=7 violations=0
+  (rows with hypothesis=False are outside Lemma F and are listed only to show that the hypothesis matters)
+RESULT: ALL CHECKS PASS

@@ -1,0 +1,32 @@
+{
+ "p": 3,
+ "shard": 2,
+ "constructed": 177147,
+ "distinct_first_here": 175689,
+ "hist_total": {
+  "25": 729,
+  "27": 4374,
+  "29": 4374,
+  "31": 8748,
+  "33": 13122,
+  "35": 39366,
+  "37": 61236,
+  "39": 43740
+ },
+ "line_subspaces_hist": {
+  "1": 174960,
+  "2": 729
+ },
+ "stats": {
+  "min_cosets": 3,
+  "min_cross_C": 5,
+  "min_YY": 5,
+  "min_per_coset": 5,
+  "min_column": 10,
+  "column_checks": 352836,
+  "line_f": 175689,
+  "line_min_total": 25
+ },
+ "elapsed_s": 418.3,
+ "python": "3.12.10"
+}

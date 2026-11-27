@@ -1,0 +1,35 @@
+[1] box f = 0: |T-T| by LITERAL and by FIBRE, against (2p-1)^2
+    p= 3  literal=  25  fibre=  25  (2p-1)^2=  25  OK
+    p= 5  literal=  81  fibre=  81  (2p-1)^2=  81  OK
+    p= 7  literal= 169  fibre= 169  (2p-1)^2= 169  OK
+    p=11  literal= 441  fibre= 441  (2p-1)^2= 441  OK
+    p=13  literal= 625  fibre= 625  (2p-1)^2= 625  OK
+[2] random f: Lemma 6.1 (LITERAL == FIBRE), A_0 = {0}, cycle and curl identities, |T-T| odd, >= 3p^2-p-1
+    p= 3  trials= 400  violations=0  min |T-T| seen=33  (box 25)
+    p= 5  trials= 200  violations=0  min |T-T| seen=341  (box 81)
+    p= 7  trials=  60  violations=0  min |T-T| seen=1427  (box 169)
+    p=11  trials=  12  violations=0  min |T-T| seen=9065  (box 441)
+    chunk 9/81  elapsed   15.2s
+    chunk 18/81  elapsed   31.9s
+    chunk 27/81  elapsed   48.3s
+    chunk 36/81  elapsed   64.4s
+    chunk 45/81  elapsed   81.0s
+    chunk 54/81  elapsed   97.0s
+    chunk 63/81  elapsed  112.1s
+    chunk 72/81  elapsed  126.9s
+    chunk 81/81  elapsed  142.0s
+[3] p = 3 exhaustive, all 9^8 normalised f
+    functions enumerated : 43046721  (expected 43046721)
+    LITERAL vs FIBRE mismatches : 0
+    histogram of |T-T| (LITERAL): {25: 4374, 27: 17496, 29: 17496, 31: 81648, 33: 166212, 35: 306180, 37: 769824, 39: 1399680, 41: 2294163, 43: 2758536, 45: 5108832, 47: 7435800, 49: 8053992, 51: 6718464, 53: 4251528, 55: 2519424, 57: 769824, 59: 227448, 61: 139968, 67: 5832}
+    histogram of |T-T| (FIBRE)  : {25: 4374, 27: 17496, 29: 17496, 31: 81648, 33: 166212, 35: 306180, 37: 769824, 39: 1399680, 41: 2294163, 43: 2758536, 45: 5108832, 47: 7435800, 49: 8053992, 51: 6718464, 53: 4251528, 55: 2519424, 57: 769824, 59: 227448, 61: 139968, 67: 5832}
+    delta((Z/9)^2, 3(Z/9)^2) = 25 (LITERAL) = 25 (FIBRE);  source: 25;  MATCH
+    number of normalised minimisers: 4374
+[4] p = 3 exhaustive side statistics (FIBRE path)
+    minimiser profiles (sorted |A_u|, u != 0) : {'(2, 2, 2, 2, 4, 4, 4, 4)': 4374}
+    f with some direction whose image lies in a line: 704214; |T-T| histogram: {25: 4374, 27: 17496, 29: 17496, 31: 34992, 33: 52488, 35: 157464, 37: 244944, 39: 174960}
+    f with some |A_u| = 2: 74358; histogram: {25: 4374, 27: 17496, 29: 17496, 31: 17496, 33: 17496}
+    f with NO line direction (0-branch): 42342507; histogram: {31: 46656, 33: 113724, 35: 148716, 37: 524880, 39: 1224720, 41: 2294163, 43: 2758536, 45: 5108832, 47: 7435800, 49: 8053992, 51: 6718464, 53: 4251528, 55: 2519424, 57: 769824, 59: 227448, 61: 139968, 67: 5832}
+    column bound: min over (f, u line-direction, v not in <u>) of sum_k |A_(ku+v)| = 10  (lemma predicts >= 4p-2 = 10); checks: 8503056
+    elapsed 142.0 s
+ALL CHECKS PASS

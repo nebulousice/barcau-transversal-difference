@@ -1,0 +1,30 @@
+{
+ "constructed": 708588,
+ "distinct": 704214,
+ "hist_total": {
+  "25": 4374,
+  "27": 17496,
+  "29": 17496,
+  "31": 34992,
+  "33": 52488,
+  "35": 157464,
+  "37": 244944,
+  "39": 174960
+ },
+ "line_subspaces_hist": {
+  "1": 699840,
+  "2": 4374
+ },
+ "stats": {
+  "min_cosets": 3,
+  "min_cross_C": 5,
+  "min_YY": 5,
+  "min_per_coset": 5,
+  "min_column": 10,
+  "column_checks": 1417176,
+  "line_f": 704214,
+  "line_min_total": 25
+ },
+ "matches_rows_p3_hist": true,
+ "matches_rows_p3_columns": true
+}

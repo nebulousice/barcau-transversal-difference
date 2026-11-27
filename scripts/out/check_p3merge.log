@@ -1,0 +1,9 @@
+check_L1.py p3merge   (python 3.12.10, CPython, Windows 11; standard library only; check_L1.py sha256 6be5f43954a27c0a...)
+  p=3 complete hypothesis class: constructed (with repeats) = 708588; distinct f = 704214
+  histogram of |T-T| over the class     : {25: 4374, 27: 17496, 29: 17496, 31: 34992, 33: 52488, 35: 157464, 37: 244944, 39: 174960}
+  rows_p3.json hist_some_line_direction : {25: 4374, 27: 17496, 29: 17496, 31: 34992, 33: 52488, 35: 157464, 37: 244944, 39: 174960}
+  number of line-direction subspaces    : {1: 699840, 2: 4374}
+  stats (minima over the class)         : {'min_cosets': 3, 'min_cross_C': 5, 'min_YY': 5, 'min_per_coset': 5, 'min_column': 10, 'column_checks': 1417176, 'line_f': 704214, 'line_min_total': 25}
+  rows_p3.json column_min=10 column_checks=8503056
+  histogram identical to the exhaustive scan: True;  column minimum 10 = 4p-2 in both: True;  column checks here (f, line subspace, nonzero column) = 1417176
+RESULT: ALL CHECKS PASS

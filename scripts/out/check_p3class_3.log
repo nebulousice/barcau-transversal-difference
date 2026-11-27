@@ -1,0 +1,3 @@
+check_L1.py p3class 3   (python 3.12.10, CPython, Windows 11; standard library only; check_L1.py sha256 6be5f43954a27c0a...)
+  p=3 shard 3: constructed=177147 processed=174960 hist={'27': 4374, '29': 4374, '31': 8748, '33': 13122, '35': 39366, '37': 61236, '39': 43740} stats={'min_cosets': 3, 'min_cross_C': 5, 'min_YY': 5, 'min_per_coset': 5, 'min_column': 11, 'column_checks': 349920, 'line_f': 174960, 'line_min_total': 27} elapsed=422.0s
+RESULT: ALL CHECKS PASS
